@@ -1,0 +1,19 @@
+{
+  "name": "nowmusic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowmusic/nowmusic.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nowmusic/nowmusic.github.io/issues"
+  },
+  "homepage": "https://github.com/nowmusic/nowmusic.github.io#readme"
+}
