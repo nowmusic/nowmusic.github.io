@@ -3,7 +3,7 @@ function Main() {
 }
 
 function First() {
-    return `<a>당신의 현재 기분은 어떤가요?</a>
+    return `<a>당신의 현재 기분은 어떤가요?</a></br>
             <a class="btn" href="#good">좋아요</a><br>
             <a class="btn" href="#normal">보통이에요</a><br>
             <a class="btn" href="#bad">나빠요</a>`;
