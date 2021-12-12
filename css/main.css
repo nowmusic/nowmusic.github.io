@@ -103,7 +103,7 @@ iframe {
     -webkit-transition: all 0.1s ease;
     -moz-transition: all 0.1s ease;
     width: 33%;
-    border-style: solid;
+    border: 1px solid #000000;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
