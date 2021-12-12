@@ -118,7 +118,6 @@ iframe {
     -webkit-transition: all 0.2s ease 0.2s;
     -moz-transition: all 0.2s ease 0.2s;
     cursor : pointer;
-    border-radius: 12px;
 }
 
 @-webkit-keyframes btn_electric_blinkIn {
