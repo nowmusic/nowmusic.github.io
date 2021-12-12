@@ -3,7 +3,7 @@ function Main() {
 }
 
 function First() {
-    return `<br><a>당신의 현재 기분은 어떤가요?</a></br><br><br>
+    return `<br><a class="first_ques">당신의 현재 기분은 어떤가요?</a></br><br><br>
             <a class="btn" href="#good">좋아요</a><br>
             <a class="btn" href="#normal">보통이에요</a><br>
             <a class="btn" href="#bad">나빠요</a>`;
@@ -46,8 +46,9 @@ function Fourth() {
 }
 
 function Happy() {
-    return `
+    return `<div class="wrap_desc">
     <div class="list_descript">행복한 당신을 더 행복하게 만들어 줄 플레이리스트</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -60,7 +61,9 @@ function Happy() {
 }
 
 function Excited() {
-    return `<div class="list_descript">신날 때 듣는 플레이리스트</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">신날 때 듣는 플레이리스트</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -73,7 +76,9 @@ function Excited() {
 }
 
 function Pitapat() {
-    return `<div class="list_descript">두근두근할 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">두근두근할 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -86,7 +91,9 @@ function Pitapat() {
 }
 
 function Pleased() {
-    return `<div class="list_descript">기쁠 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">기쁠 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -98,7 +105,9 @@ function Pleased() {
 }
 
 function Proud() {
-    return `<div class="list_descript">뿌듯할 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">뿌듯할 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -110,7 +119,9 @@ function Proud() {
 
 }
 function Relaxed() {
-    return `<div class="list_descript">여유로울 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">여유로울 때 듣는 노래</div>
+    </div>
      <iframe
     width = "500"
     height = "305"
@@ -122,7 +133,9 @@ function Relaxed() {
 
 }
 function SoSo() {
-    return `<div class="list_descript">소소할 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">소소할 때 듣는 노래</div>
+    </div> 
      <iframe
     width = "500"
     height = "305"
@@ -134,7 +147,9 @@ function SoSo() {
 
 }
 function Sleep() {
-    return `<div class="list_descript">잠 깨고 싶을 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">잠 깨고 싶을 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -146,7 +161,9 @@ function Sleep() {
 
 }
 function Miss() {
-    return `<div class="list_descript">그리울 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">그리울 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -158,7 +175,9 @@ function Miss() {
 
 }
 function Upndown() {
-    return `<div class="list_descript">기분이 오락가락 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">기분이 오락가락 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -171,7 +190,9 @@ function Upndown() {
 }
 
 function Lonely() {
-    return `<div class="list_descript">외로울 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">외로울 때 듣는 노래</div>
+    </div> 
      <iframe
     width = "500"
     height = "305"
@@ -183,7 +204,9 @@ function Lonely() {
 
 }
 function Wantsleep() {
-    return `<div class="list_descript">자고 싶을 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">자고 싶을 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -195,7 +218,9 @@ function Wantsleep() {
 
 }
 function Busy() {
-    return `<div class="list_descript">바쁠 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">바쁠 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -208,7 +233,9 @@ function Busy() {
 }
 
 function Bummed() {
-    return `<div class="list_descript">꿀꿀할 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">꿀꿀할 때 듣는 노래</div>
+    </div>
      <iframe
     width = "500"
     height = "305"
@@ -220,7 +247,9 @@ function Bummed() {
 
 }
 function Sad() {
-    return `<div class="list_descript">슬플 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">슬플 때 듣는 노래</div>
+    </div> 
      <iframe
     width = "500"
     height = "305"
@@ -232,7 +261,9 @@ function Sad() {
 
 }
 function Cry() {
-    return `<div class="list_descript">울고 싶을 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">울고 싶을 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -244,7 +275,9 @@ function Cry() {
 
 }
 function Hard() {
-    return `<div class="list_descript">힘들 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">힘들 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -256,7 +289,9 @@ function Hard() {
 
 }
 function Disappointed() {
-    return `<div class="list_descript">서운할 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">서운할 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -268,7 +303,9 @@ function Disappointed() {
 
 }
 function Worried() {
-    return `<div class="list_descript">걱정될 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">걱정될 때 듣는 노래</div>
+    </div>
      <iframe
     width = "500"
     height = "305"
@@ -280,7 +317,9 @@ function Worried() {
 
 }
 function Annoying() {
-    return `<div class="list_descript">짜증날 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">짜증날 때 듣는 노래</div>
+    </div> 
      <iframe
     width = "500"
     height = "305"
@@ -292,7 +331,9 @@ function Annoying() {
 
 }
 function Breakdown() {
-    return `<div class="list_descript">멘붕일 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">멘붕일 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -304,7 +345,9 @@ function Breakdown() {
 
 }
 function Crazy() {
-    return `<div class="list_descript">미치겠을 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">미치겠을 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -315,7 +358,9 @@ function Crazy() {
 
 }
 function Bad() {
-    return `<div class="list_descript">별로일 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">별로일 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -327,7 +372,9 @@ function Bad() {
 
 }
 function Tired() {
-    return `<div class="list_descript">피곤할 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">피곤할 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -339,7 +386,9 @@ function Tired() {
 
 }
 function Crooked() {
-    return `<div class="list_descript">삐뚤어지고 싶을 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">삐뚤어지고 싶을 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -351,7 +400,9 @@ function Crooked() {
 
 }
 function Comforted() {
-    return `<div class="list_descript">위로받고 싶을 때 듣는 노래</div>
+    return `<div class="wrap_desc">
+    <div class="list_descript">위로받고 싶을 때 듣는 노래</div>
+     </div>
      <iframe
     width = "500"
     height = "305"
@@ -362,14 +413,6 @@ function Comforted() {
     allowFullScreen > < /iframe>;`;
 
 }
-//
-// function Thrd() {
-//    return `<a class="btn" href="#home_fourth">third함수실행</a>v<br><a class="btn" href="#home_fourth_2">third_2함수실행</a>`;
-// }
-// function Foth(){
-//     return `<div>누구의 어쩌구</div>
-// <iframe width="560" height="315" src="https://www.youtube.com/embed/7loLjL5nOHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-// }
 window.addEventListener('hashchange', () => {
     router();
 });
