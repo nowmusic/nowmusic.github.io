@@ -8,21 +8,21 @@ NowMusic은 당신의 상황과 기분을 골라 유튜브 플레이리스트를
 
 ## 🎶 당신의 상황과 기분을 골라 추천 플레이리스트를 즐겨보세요.
 
-<div style="text-align: center;"><img src="https://nowmusic.github.io/img/nowmusic_photo.png" width="70%" alt="기분선택"></div>
+<div style="text-align: center;"><img src="https://github.com/nowmusic/nowmusic.github.io/blob/main/legacy/img/nowmusic_photo.png" width="90%" alt="기분선택"></div>
 
 ## 🙂 NowMusic 사용법
 
 ### 1. 당신의 기분을 선택하세요.
 
-<div style="text-align: center;"><img src="src/img/now_condition.png" width="70%" alt="기분선택"></div>
+<div style="text-align: center;"><img src="src/img/now_condition.png" width="90%" alt="기분선택"></div>
 
 ### 2. 당신의 기분에 따른 감정을 선택하세요.
 
-<div style="text-align: center;"><img src="src/img/now_emotion.png" width="70%" alt="감정선택"></div>
+<div style="text-align: center;"><img src="src/img/now_emotion.png" width="90%" alt="감정선택"></div>
 
 ### 3. 결과에 따라 플레이리스트를 추천받을 수 있습니다.
 
-<div style="text-align: center;"><img src="src/img/now_happy_ex.png" width="70%" alt="감정선택"></div>
+<div style="text-align: center;"><img src="src/img/now_happy_ex.png" width="90%" alt="감정선택"></div>
 
 <br>
 
