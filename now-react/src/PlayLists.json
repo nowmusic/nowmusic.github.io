@@ -1,0 +1,52 @@
+{
+  "good": {
+    "emotion": [
+      ["행복해요", "happy", "https://www.youtube.com/embed/FOutKzU3uSc"],
+      ["신나요", "excited", "https://www.youtube.com/embed/79fIues07eM"],
+      ["두근두근", "pitapat", "https://www.youtube.com/embed/yqnlSuV5PFA"],
+      ["기뻐요", "pleased", "https://www.youtube.com/embed/HGrP1qdE5Rw"],
+      ["뿌듯해요", "proud", "https://www.youtube.com/embed/SZM-K11FdFA"],
+      ["여유로워요", "relaxed", "https://www.youtube.com/embed/iuyG9gbZHFM"]
+    ]
+  },
+  "normal": {
+    "emotion": [
+      ["쏘쏘에요", "soso", "https://www.youtube.com/embed/FKt2k6qTn0k"],
+      ["잠 깨고 싶어요", "sleep", "https://www.youtube.com/embed/JNM3I4Q8wGU"],
+      ["그리워요", "miss", "https://www.youtube.com/embed/em9Mr4G0-J8"],
+      ["오락가락", "upndown", "https://www.youtube.com/embed/lbOKEVS7uqA"],
+      ["외로워요", "lonely", "https://www.youtube.com/embed/W5KZ1fQ22IQ"],
+      [
+        "잠이 안 와요",
+        "wantToSleep",
+        "https://www.youtube.com/embed/vXENF8VSBss"
+      ],
+      ["바빠요", "busy", "https://www.youtube.com/embed/lvCNYrIMWWU"]
+    ]
+  },
+  "bad": {
+    "emotion": [
+      ["꿀꿀해요", "bummed", "https://www.youtube.com/embed/qvh3eAmAahE"],
+      ["슬퍼요", "sad", "https://www.youtube.com/embed/t_jw-ENr0Jg"],
+      ["울고 싶어요", "cry", "https://www.youtube.com/embed/AjiDuZZ_DZU"],
+      ["힘들어요", "hard", "https://www.youtube.com/embed/nKbBTy7ioxI"],
+      ["서운해요", "disappointed", "https://www.youtube.com/embed/6wJepYuiznU"],
+      ["걱정돼요", "worried", "https://www.youtube.com/embed/EDsPY0d9s4E"],
+      ["짜증나요", "annoying", "https://www.youtube.com/embed/q4-2kPQtMbI"],
+      ["멘붕이에요", "breakdown", "https://www.youtube.com/embed/2HhvS8A0RFQ"],
+      ["미치겠어요", "crazy", "https://www.youtube.com/embed/qoxVwvFMrYI"],
+      ["별로예요", "bad", "https://www.youtube.com/embed/Mk9Cn-ii6N4"],
+      ["피곤해요", "tired", "https://www.youtube.com/embed/HfAhUxPSubs"],
+      [
+        "삐뚤어질 거예요",
+        "crooked",
+        "https://www.youtube.com/embed/98c28NSJqaw"
+      ],
+      [
+        "위로받고 싶어요",
+        "comforted",
+        "https://www.youtube.com/embed/ccXj3a0yr2Q"
+      ]
+    ]
+  }
+}
