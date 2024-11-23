@@ -418,7 +418,7 @@ body {
     transition: all 0.7s;
   }
 }
-@media only screen and (min-width: 700px) and (max-width: 1050px) {
+@media only screen and (min-width: 700px) and (max-width: 1800px) {
   .wrapper {
     width: 65%;
   }
@@ -449,23 +449,7 @@ body {
     transition: all 0.7s;
   }
 }
-@media only screen and (min-width: 1050px) and (max-width: 1300px) {
-  .nav {
-    width: 45%;
-  }
-  .home {
-    width: 45%;
-  }
-  .author-social {
-    padding: 0.7em;
-    margin: 0.375em;
-    font-size: 0.75em;
-  }
-  .footer {
-    width: 45%;
-  }
-}
-@media only screen and (min-width: 1300px) and (max-width: 1800px) {
+@media only screen and (min-width: 1800px) {
   .nav {
     width: 45%;
   }
@@ -483,8 +467,6 @@ body {
   .footer {
     width: 45%;
   }
-}
-@media only screen and (min-width: 1050px) {
   .toc {
     display: block;
     display: inline;
