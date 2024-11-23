@@ -1,5 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
 import Home from "./home/Home";
 import About from "./components/About";
 import MainLayout from "./layouts/MainLayout";
@@ -9,7 +14,7 @@ import ShowPlayList from "./components/ShowPlayList";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="{process.env.PUBLIC_URL}">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
@@ -22,7 +27,7 @@ function App() {
           />
         </Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
