@@ -14,7 +14,7 @@ import ShowPlayList from "./components/ShowPlayList";
 
 function App() {
   return (
-    <BrowserRouter basename="{process.env.PUBLIC_URL}">
+    <Router>
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
@@ -27,7 +27,7 @@ function App() {
           />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
