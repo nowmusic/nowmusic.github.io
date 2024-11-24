@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Iframe from "../atom/Iframe";
+import { useParams } from "react-router-dom";
 
 export const YoutubePlaylistRecommender = () => {
   const [playlist, setPlaylist] = useState(null);
   const [error, setError] = useState(null);
+  const { mood, emotion } = useParams();
   const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY;
-  const searchQuery = "happy+playlist";
+  const searchQuery = `${mood}+${emotion}+playlist`;
 
   const fetchRandomPlaylist = async () => {
     const apiUrl = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${searchQuery}&key=${apiKey}&type=video`;
@@ -29,7 +31,9 @@ export const YoutubePlaylistRecommender = () => {
 
   return (
     <div style={{ width: "100%" }}>
-      <h3>good + happy</h3>
+      <h3>
+        {mood} + {emotion}
+      </h3>
       <button
         className="btn"
         style={{ marginBottom: "2em" }}
