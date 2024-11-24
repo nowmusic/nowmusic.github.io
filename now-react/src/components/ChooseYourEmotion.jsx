@@ -8,8 +8,8 @@ export default function ChooseYourEmotion() {
   return (
     <>
       <div className="btn-wrapper">
-        {Object.values(data.emotion).map((condition) => (
-          <Button path={condition[1]} message={condition[0]} />
+        {Object.values(data.emotion).map((condition, i) => (
+          <Button key={i} path={condition[1]} message={condition[0]} />
         ))}
       </div>
     </>

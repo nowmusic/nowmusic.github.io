@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <nav class="nav">
-      <ul class="list">
-        <li class="item">
-          <Link class="link" to="/">
+    <nav className="nav">
+      <ul className="list">
+        <li className="item">
+          <Link className="link" to="/">
             Home
           </Link>
         </li>
-        <li class="item">
-          <Link class="link" to="/about">
+        <li className="item">
+          <Link className="link" to="/about">
             About
           </Link>
         </li>

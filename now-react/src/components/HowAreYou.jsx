@@ -8,10 +8,10 @@ export default function HowAreYou() {
   };
   return (
     <>
-      <p class="first_ques">당신의 현재 기분은 어떤가요?</p>
+      <p className="first_ques">당신의 현재 기분은 어떤가요?</p>
       <div className="btn-wrapper">
-        {Object.values(conditions).map((condition) => (
-          <Button path={condition.path} message={condition.message} />
+        {Object.values(conditions).map((condition, i) => (
+          <Button key={i} path={condition.path} message={condition.message} />
         ))}
       </div>
     </>

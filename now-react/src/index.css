@@ -635,7 +635,7 @@ a {
   transition: all 0.5s;
 }
 a:visited {
-  color: #4e4e4e;
+  color: #000000;
 }
 a:hover {
   color: #1b1b1b;

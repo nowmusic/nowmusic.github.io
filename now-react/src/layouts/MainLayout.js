@@ -8,7 +8,7 @@ export default function MainLayout() {
   return (
     <div className="App">
       <Header />
-      <div class="home">
+      <div className="home">
         <HomeHeader />
         <Outlet />
       </div>
